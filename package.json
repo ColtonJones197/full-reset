@@ -1,11 +1,11 @@
 {
-  "name": "Stupid Title",
+  "name": "Full Reset",
   "private": true,
-  "description": "My cool takes on everything",
-  "version": "0.1.0",
+  "description": "",
+  "version": "0.1.1",
   "author": "CK Jones <colton.jones197@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/ColtonJones197/full-reset/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
