@@ -9,3 +9,6 @@ This is a personal blog created using the following technologies:
    - SASS for cleanliness/syntactical sugar
    - Tailwindcss for some basic styling
    - Fontawesome
+
+## Getting Started
+If you'd like to run this on your machine, simply clone the repository and run `gatsby develop` to start the webserver.
