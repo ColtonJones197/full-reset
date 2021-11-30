@@ -11,4 +11,15 @@ This is a personal blog created using the following technologies:
    - Fontawesome
 
 ## Getting Started
-If you'd like to run this on your machine, simply clone the repository and run `gatsby develop` to start the webserver.
+If you'd like to run this on your machine, simply clone the repository
+
+```bash
+git clone https://github.com/ColtonJones197/full-reset
+```
+
+and start the server in development mode to start the webserver.
+
+```bash
+cd full-reset
+gatsby develop
+```
