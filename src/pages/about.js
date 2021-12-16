@@ -25,8 +25,6 @@ const AboutPage = () => {
                         I think a big problem that a lot of people face is finding motivation to live their every day lives.
                         It can lead to burnout for many and can lead to crises at any stage of life for people and I have made it a goal to be someone that helps others
                         find that purpose.</p>
-                    <h3 className="flex justify-center">Politics</h3>
-                    <p className="flex justify-center mb-4">This is a fourth paragraph, it goes over politics a bit</p>
                 </div>
             </main>
         </Layout>
