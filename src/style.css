@@ -280,9 +280,14 @@ a:focus {
   margin-bottom: var(--spacing-12);
 }
 
+.header {
+  background-color: blue;
+  max-height: 60px;
+}
+
 .home-heading {
   display: grid;
-  grid-template-columns: 30% 10%;
+  grid-template-columns: 30% 60% 10%;
   justify-content: space-between;
   font-size: var(--fontSize-7);
   max-height: 30rem;
@@ -319,13 +324,37 @@ a:focus {
   font-size: var(--fontSize-4);
 }
 
-.header-icon-out-page {
-  display: inline-flex;
-  align-self: center;
-  max-width: 50px;
+
+.navigation-landing {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: var(--fontSize-3);
+  font-weight: bold;
+  font-family: var(--fontFamily-serif);
+  text-decoration: underline;
+}
+
+.navigation {
+  display: flex;
+  padding-left: 3em;
+  justify-content: space-around;
+  align-items: baseline;
+  font-size: var(--fontSize-2);
+  font-weight: bold;
+  font-family: var(--fontFamily-serif);
+  text-decoration: underline;
+  height: 50px;
+}
+
+.header-icon-wrapper{
   max-height: 50px;
-  width: inherit;
-  height: inherit;
+  max-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bio {

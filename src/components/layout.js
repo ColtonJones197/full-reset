@@ -15,6 +15,11 @@ const Layout = ({ location, title, children }) => {
     header = (
       <div className="home-heading">
         <div><StaticImage src="../images/masthead.png" alt="masthead" /></div>
+        <div className="navigation-landing px-3">
+          <a href="/about">ABOUT</a>
+          <a href="">LISTS</a>
+          <a href="">ARTICLES</a>
+        </div>
         <div>
           <StaticImage src="../images/site-logo.png" alt="site logo" />
         </div>
@@ -22,10 +27,12 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        <StaticImage className="header-icon-out-page" src="../images/site-logo.svg" 
-        alt="icon"/>{title}
-      </Link>
+      <div className="navigation">
+        <Link to="/"><StaticImage className="header-icon-wrapper" src="../images/site-logo.png" alt="nice logo" /> </Link>
+        <a href="/about">ABOUT</a>
+        <a href="">LISTS</a>
+        <a href="">ARTICLES</a>
+      </div>
     )
   }
 
@@ -33,6 +40,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <div className="global-wrapper" data-is-root-path={isRootPath}>
         <header className="global-header">{header}</header>
+        
         <main>{children}</main>
       </div>
       <footer className="global-footer">
@@ -41,7 +49,7 @@ const Layout = ({ location, title, children }) => {
           <div><a href="https://twitter.com/ckjonesdev"><FontAwesomeIcon icon={faTwitter} size="lg" /></a></div>
           <div><a href="https://github.com/ColtonJones197"><FontAwesomeIcon icon={faGithub} size="lg" /></a></div>
           <div><a href="https://www.linkedin.com/in/colton-jones/"><FontAwesomeIcon icon={faLinkedin} size="lg" /></a></div>
-          <div className="col-span-2"><span>&copy; Colton Jones 2020-2021</span></div>
+          <div className="col-span-4"><span>&copy; Colton Jones 2020-2021</span></div>
         </div>
       </footer>
       
