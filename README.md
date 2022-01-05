@@ -6,7 +6,7 @@ This is a personal blog created using the following technologies:
    - GraphQL also included with gatsby to fetch all static files
    - node.js
  - CSS libraries/tooling
-   - SASS for cleanliness/syntactical sugar
+   - SASS
    - Tailwindcss for some basic styling
    - Fontawesome
 
