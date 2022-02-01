@@ -2,7 +2,7 @@
 title: Explained Better - Liskov Substitution Principle 
 date: "2022-01-26T22:40:32.169Z"
 visible: true
-description: A cautionary tale of cross site scripting and how to defend your site from it.
+description: 
 topic: coding, design
 ---
 
