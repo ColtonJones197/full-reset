@@ -49,7 +49,7 @@ const Layout = ({ location, title, children }) => {
           <div><a href="https://twitter.com/ckjonesdev"><FontAwesomeIcon icon={faTwitter} size="lg" /></a></div>
           <div><a href="https://github.com/ColtonJones197"><FontAwesomeIcon icon={faGithub} size="lg" /></a></div>
           <div><a href="https://www.linkedin.com/in/colton-jones/"><FontAwesomeIcon icon={faLinkedin} size="lg" /></a></div>
-          <div className="col-span-4"><span>&copy; Colton Jones 2020-2021</span></div>
+          <div className="col-span-4"><span>&copy; Colton Jones 2020-2022</span></div>
         </div>
       </footer>
       
