@@ -1,6 +1,6 @@
 ---
 title: It's ok to write something to learn
-date: "2022-07-22T22:40:32.169Z"
+date: "2022-01-22T22:40:32.169Z"
 visible: true
 description: A little pep talk about those projects we put out there.
 topic: life, coding
